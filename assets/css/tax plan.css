@@ -1,0 +1,221 @@
+
+.tax-plan-content > h3{
+	font-weight: 700;
+	font-size: 2.4rem;
+	line-height: 3.2rem;
+	color: #000000;
+}
+
+.tax-plan-content > h6{
+	font-weight: 500;
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+	color: #8C8C8C;
+}
+
+
+.tax-plan-content .tax-plan-img{
+	margin: 5rem auto;
+	text-align: center;
+	max-width: 500px;
+}
+
+.tax-plan-content .tax-plan-img img{
+	width: 100%;
+}
+
+.tax-plan-content .tax-plan-text p{
+	font-weight: 500;
+	font-size: 1.4rem;
+	line-height: 2.4rem;
+	color: #121212;
+	margin: 1.5rem 0;
+}
+
+.tax-plan-content .tax-plan-btn{
+	margin: 5rem 0;
+}
+.tax-plan-content .tax-plan-btn a{
+	display: block;
+	max-width: 328px;
+	height: 56px;
+	background: #175783;
+	border-radius: .8rem;
+	font-weight: 700;
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+	color: #FEFEFE;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.form-rds{
+	margin: 2.5rem 0;
+}
+
+.form-rds .form-rd{
+	margin-right: 4rem;
+	display: flex;
+	align-items: center;
+}
+.form-rds .form-rd input{
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+}
+.form-rds .form-rd label{
+	font-weight: 500;
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+	color: #121212;
+	margin: 0;
+	margin-left: 1.5rem;
+	cursor: pointer;
+
+}
+
+.or{
+	margin: 3rem 0;
+}
+
+.or p{
+	font-weight: 500;
+	font-size: 1.4rem;
+	line-height: 2rem;
+	color: #8C8C8C;
+}
+
+
+
+
+
+
+.tax-tabs-content .tax-sec-80{
+	background: #FEFEFE;
+	border: 1px solid #E4E4E4;
+	border-radius: .8rem;
+	margin: 1.5rem 0;
+	padding: 2rem 1.5rem;
+}
+.tax-tabs-content .tax-sec-80 .tax-sec-h{
+	margin-bottom: 2.5rem;
+}
+.tax-tabs-content .tax-sec-80 h4{
+	font-weight: 700;
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+
+}
+
+.tax-tabs-content .tax-sec-80 h6{
+	font-weight: 600;
+	font-size: 1.4rem;
+	line-height: 2rem;
+	color: #121212;
+}
+.tax-tabs-content .tax-sec-80 small{
+	margin-right: .7rem;
+}
+.tax-tabs-content .tax-sec-80 p,
+.tax-tabs-content .tax-sec-80 small{
+	font-weight: 500;
+	font-size: 1.2rem;
+	line-height: 1.6rem;
+	color: #A9A9A9;
+}
+
+.tax-plan-d{
+	margin-top: 10rem;
+}
+
+
+
+
+
+
+
+.tax-to-paid{
+	background: linear-gradient(113.91deg, #1B4679 0%, #00B0B8 100%);
+	border-radius: .8rem;
+	padding: 2rem 1.5rem;
+	margin: 1.8rem 0;
+}
+.tax-to-paid p,
+.tax-paid-h label{
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.2rem;
+	line-height: 1.6rem;
+	color: #FEFEFE;
+	opacity: 0.72;
+}
+.tax-paid-h {
+	margin-bottom: .5rem;
+}
+.tax-paid-h select{
+	display: inline-block;
+	width: 100px;
+	background: none;
+	border: none;
+	outline: none;
+	color: #fff;
+	font-weight: 700;
+	font-size: 1.2rem;
+	line-height: 1.6rem;
+}
+
+.tax-paid-h select option{
+	font-weight: 500;
+	font-size: 1.4rem;
+	line-height: 2rem;
+	color: #121212;
+}
+
+.tax-price{
+	margin-bottom: 2rem;
+}
+.tax-price h2{
+	font-weight: 900;
+	font-size: 2.8rem;
+	line-height: 3.6rem;
+	color: #FEFEFE;
+}
+.tax-save-d .tax-save{
+	margin: 2rem 0;
+}
+.tax-save-d .tax-save h4{
+	font-weight: 700;
+	font-size: 2rem;
+	line-height: 2.8rem;
+	color: #FEFEFE;
+}
+.tax-paid-bottom{
+	margin-bottom: 1.5rem;
+}
+.tax-paid-bottom h6{
+	font-weight: 700;
+	font-size: 1.2rem;
+	line-height: 1.6rem;
+	color: #FEFEFE;
+}
+
+
+.tax-paid-btn a{
+	font-weight: 700;
+	font-size: 1.2rem;
+	line-height: 2rem;
+	text-decoration-line: underline;
+	color: #FEFEFE;
+}
+
+
+
+.know-80c p{
+	font-weight: 500;
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+	color: #121212;
+	margin: 1.5rem 0;
+}

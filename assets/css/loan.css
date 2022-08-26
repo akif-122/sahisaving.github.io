@@ -1,0 +1,50 @@
+
+.dash-content{
+	position: relative;
+}
+.dash-content > h3{
+	padding-right: 50px;
+}
+.dash-content .right-3-dots{
+
+}
+
+.right-3-dots button{
+	width: 40px;
+	height: 40px;
+	background: #FEFEFE;
+	border: 1.01159px solid #F0F0F1;
+	border-radius: 8px;
+	font-size: 1.8rem;
+}
+.right-3-dots .dropdown-menu a{
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	color: #121212;
+	margin: .5rem 0;
+}
+.home-load-tabs ul{
+	display: flex;
+	align-items: center;
+	border: none;
+	margin-bottom: 2rem;
+}
+
+.home-load-tabs ul li{
+	width: 50%;
+
+}
+.home-load-tabs ul li a{
+	display: block;
+	font-weight: 700;
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+	color: #121212;
+	text-align: center;
+	padding: 1.5rem;
+	border-bottom: 2px solid #E4E4E4; 
+}
+.home-load-tabs ul li a.active{
+	border-bottom: 2px solid #175783
+}

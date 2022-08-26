@@ -1,0 +1,24 @@
+.success{
+	padding: 130px 0;
+}
+.success img{
+	max-width: 242px;
+	margin-bottom: 1rem;
+}
+.success p{
+	font-weight: 500;
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+	color: #8C8C8C;
+	margin: 2rem 0;
+}
+
+.success a{
+	font-weight: 700;
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+	color: #175783;
+}
+.success a i{
+	margin-left: 1rem;
+}

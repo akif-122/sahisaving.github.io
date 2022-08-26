@@ -1,0 +1,305 @@
+
+.main .dashtop > a h2 i{
+	color: #000000 ;
+}
+
+.stock-content > h3{
+	font-weight: 700;
+	font-size: 2.4rem;
+	line-height: 3.2rem;
+	color: #191919;
+}
+
+.stock-content > p{
+	font-weight: 500;
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+	color: #8C8C8C;
+}
+
+.stock-content .stock-benefit{
+	background: #FEFEFE;
+	border: 1px solid #E4E4E4;
+	border-radius: .8rem;
+	padding: 2rem 1.8rem;
+	margin: 4rem 0;
+}
+
+.stock-content .stock-benefit h6{
+	font-weight: 700;
+	font-size: 1.4rem;
+	line-height: 2rem;
+}
+
+.stock-content .stock-benefit .stock-benefit-dt{
+	margin: 2.5rem 0;
+	position: relative;
+	padding-left: 55px;
+}
+
+.stock-content .stock-benefit .stock-benefit-dt img{
+	margin-right: 1.4rem;
+	width: 45px;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+}
+.stock-content .stock-benefit .stock-benefit-dt h5{
+	font-weight: 700;
+	font-size: 1.4rem;
+	line-height: 2rem;
+	margin: 0;
+	color: #000000;
+}
+
+.stock-content .stock-benefit .stock-benefit-dt p{
+	font-weight: 500;
+	font-size: 1.2rem;
+	margin: .5rem 0;
+	line-height: 1.6rem;
+	color: #8C8C8C;
+}
+
+.stock-content .add-stock-btn{
+	margin-top: 6rem;
+}
+.stock-content .add-stock-btn a{
+	background: #175783;
+	border-radius: .8rem;
+	font-weight: 700;
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+	color: #FEFEFE;
+	max-width: 328px;
+	height: 56px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.add-stock-mt > p{
+	font-weight: 500;
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+	color: #8C8C8C;
+}
+
+.or{
+	margin: 3rem 0;
+}
+
+.or p{
+	font-weight: 700;
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+	color: #8C8C8C;
+}
+.mt-funds-content label{
+	padding-top: 5rem !important;
+	padding-bottom: 4rem !important;
+}
+.mt-funds-content label img{
+	margin-bottom: 2rem !important;
+}
+.mt-funds-content small{
+	max-width: 300px;
+	font-weight: 700;
+	font-size: 1.2rem;
+	line-height: 1.6rem;
+	display: block;
+	margin: .8rem auto;
+	color: #9C9CAE;
+}
+
+
+
+.wy-connect-broker{
+	margin: 4rem 0;
+}
+.wy-connect-broker h5{
+	font-weight: 700;
+	font-size: 1.4rem;
+	line-height: 2rem;
+	color: #000000;
+}
+.wy-connect-broker .why-connect-broker-wrap{
+}
+.wy-connect-broker .why-connect-broker-wrap .why-connect-dt{
+	margin: 2rem 0;
+}
+.wy-connect-broker .why-connect-broker-wrap p{
+	font-weight: 500;
+	font-size: 1.4rem;
+	line-height: 2rem;
+	color: #595959;
+	margin: 0;
+	margin-left: 0.5rem;
+	padding-left: 28px;
+	position: relative;
+}
+
+.wy-connect-broker .why-connect-broker-wrap img{
+	position: absolute;
+	left: 17px;
+}
+
+
+.select-broker{
+	margin: 5rem 0;
+}
+
+.select-broker p{
+	font-weight: 500;
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+	color: #8C8C8C;
+}
+
+.select-broker .select-broker-wrap-container .select-broker-wrap{
+	width: 48%;
+	margin: 1.2rem 0;
+}
+.select-broker .select-broker-wrap-container .select-broker-wrap input{
+	display:  none;
+}
+.select-broker .select-broker-wrap-container .select-broker-wrap input:checked + label{
+	border: 1px solid #175783;
+	opacity: 1;
+
+}
+.select-broker .select-broker-wrap-container .select-broker-wrap label{
+	background: #FEFEFE;
+	border: 1px solid #E4E4E4;
+	border-radius: 8px;
+	padding: 1.2rem 1.5rem;
+	opacity: 0.7;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+.select-broker .select-broker-wrap-container .select-broker-wrap label img{
+	margin-right: .8rem;
+	width: 30px;
+}
+.select-broker .select-broker-wrap-container .select-broker-wrap label h6{
+	font-weight: 700;
+	font-size: 1.4rem;
+	line-height: 2rem;
+	color: #121212;
+	margin: 0;
+	margin-left: .7rem;
+}
+
+.form .form-btn button{
+	width: 300px;
+	background: #175783;
+	color: #fff;
+}
+
+
+.your-brokers-wrap{
+	margin: 4rem 0;
+	background: #E6EEF3;
+	padding: 1rem .5rem;
+}
+
+.your-brokers-wrap .your-broker{
+	width: 75px;
+	text-align: center;
+	margin: 2rem 1.5rem;
+}
+
+.your-brokers-wrap .your-broker h6{
+	font-weight: 500;
+	font-size: 1.2rem;
+	line-height: 1.6rem;
+	color: #000000;
+	margin: .5rem 0;
+}
+
+.connecting-broker-benefit{
+	border: none !important;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+.connecting-broker-btn{
+	margin: 3.5rem 0;
+}
+
+.connecting-broker-btn button{
+	display: block;
+	width: 300px !important;
+	height: 56px;
+	background: #175783;
+	border: .2rem solid #175783;
+	border-radius: 8px;
+	margin: 1rem 0;
+	font-weight: 700;
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+	color: #FEFEFE;
+}
+
+.connecting-broker-btn button.btn-unfill{
+	background: #fff;
+	color: #175783;
+
+}
+
+
+.mt-funds-wrap h5{
+	font-weight: 700;
+	font-size: 1.4rem;
+	line-height: 2rem;
+	color: #121212;
+	padding-right: 30px;
+	position: relative;
+	margin: 1rem 0;
+}
+.mt-funds-wrap h5 img{
+	position: absolute;
+	right: 0;
+}
+
+.stock-card-wrap{
+	margin: 3rem 0;
+}
+
+.stock-card-wrap .stock-card{
+	background: #FEFEFE;
+	border: 1px solid #E4E4E4;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+	border-radius: .8rem;
+	text-align: center;
+	padding: 2rem 1.5rem;
+	margin: 1.5rem 0;
+}
+
+.stock-card-wrap .stock-card p{
+	font-weight: 500;
+	font-size: 1.2rem;
+	line-height: 1.6rem;
+	color: #8C8C8C;
+	margin-bottom: .7rem;
+}
+
+.stock-card-wrap .stock-card h5{
+	font-weight: 700;
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+	color: #121212;
+	margin: .8rem 0;
+}
+
+.stock-card-wrap .stock-card small{
+	font-weight: 700;
+	font-size: 1.2rem;
+	line-height: 1.6rem;
+
+}
+.stock-card-wrap .stock-card small img{
+	margin-left: .5rem;
+}

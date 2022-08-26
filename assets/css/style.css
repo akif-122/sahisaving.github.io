@@ -1,0 +1,448 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	transition: all 0.4s ease-in-out;
+}
+
+html{
+	font-size: 62.5%;
+}
+body{
+	font-family: 'Satoshi', sans-serif;
+}
+input,select,textarea{
+	box-shadow: none !important;
+	outline: none !important;
+}
+
+a,a:hover{
+	text-decoration: none;
+}
+
+.cl-red{
+	color: #D24141 !important;
+}
+
+.cl-green{
+	color: #46B673 !important;
+}
+
+.wrapper{
+	overflow: hidden;
+}
+
+.track-text{
+	position: relative;
+}
+.track-text .line-img{
+	/*width: 370px;*/
+	width: 21vw;
+	position: absolute;
+	bottom: 105%;
+	right: 60%;
+}
+
+/*
+================================
+	TRACK SIDE START
+================================
+*/
+.track-side{
+	width: 300px;
+	position: fixed;
+	right: -100%;
+	top: 17%;
+	height: 80vh;
+	background: #fff;
+	z-index: 100;
+	padding: 2rem 2.5rem;
+	background: #FFFFFF;
+	box-shadow: -2px 4px 16px rgba(102, 102, 102, 0.1);
+	overflow-y: auto;
+}
+.track-side .track-side-close{
+	margin: 1.5rem 0;
+}
+.track-side .track-side-close span{
+	font-size: 2rem;
+	cursor: pointer;
+}
+
+.track-side .track-side-content{
+	margin-top: 2rem;
+}
+
+.track-side .track-side-content h3{
+	font-weight: 700;
+	font-size: 2rem;
+	line-height: 2.8rem;
+	color: #000000;
+	margin-bottom: 2.5rem;
+}
+.track-side .track-side-content p{
+	font-weight: 500;
+	font-size: 1.4rem;
+	line-height: 2rem;
+	color: #8C8C8C;
+}
+
+.track-side .track-side-content .track-selection ul{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	list-style: none;
+
+}
+.track-side .track-side-content .track-selection li{
+	width: 48%;
+	margin: .5rem 0;
+}
+.track-side .track-side-content .track-selection li a{
+	border: 0.1rem solid #F0F0F1;
+	border-radius: .5rem;
+	padding: .8rem .6rem;
+	color: #121212;
+	display: block;
+	font-size: 1.2rem;
+	font-weight: 600;
+	display: flex;
+	align-items: center;
+
+}
+.track-side .track-side-content .track-selection li a img{
+	width: 25px;
+	margin-right: .5rem;
+}
+/*
+================================
+	TRACK SIDE END
+================================
+*/
+
+
+/*
+================================
+	SIDE BAR SECTION START
+================================
+*/
+.sidebar{
+	padding: 15px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 250px;
+	height: 100vh;
+	z-index: 10;
+	background: #F4F5F7;
+	overflow: hidden;
+}
+.sidebar .logo{
+	text-align: center;
+	margin-bottom: 8rem;
+	margin-top: 2rem;
+}
+.sidebar .logo img{
+	width: 80%;
+}
+
+.sidebar .track-btn{
+	margin: 3rem 0;
+}
+.sidebar .track-btn span{
+	display: block;
+	width: 100%;
+	border-radius:50px;
+	border: none;
+	background: linear-gradient(113.91deg, #1B4679 0%, #00B0B8 100%);
+	padding: 1.3rem 0rem;
+	font-family: 'Satoshi';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.4rem;
+	color: #FEFEFE;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+.sidebar .track-btn span i{
+	font-size: 2rem;
+	margin-right: .5rem;
+
+}
+
+.sidebar .sidebar-nav{
+	margin: 3rem 0;
+}
+.sidebar .sidebar-nav ul{
+	list-style: none;
+}
+
+.sidebar .sidebar-nav ul li {
+	margin: 0.5rem 0;
+}
+.sidebar .sidebar-nav ul li a svg{
+	margin-right: 1rem;
+}
+.sidebar .sidebar-nav ul li a svg path{
+	stroke: #8C8C8C;
+	stroke-width: 0.05px;
+}
+.sidebar .sidebar-nav ul li:first-child a svg path{
+	fill: none !important;
+}
+.sidebar .sidebar-nav ul li a{
+	font-family: 'Satoshi';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 1.4rem;
+	color: #8C8C8C;
+	display: block;
+	padding: .8rem 1.5rem;
+	border-radius: .5rem;
+	position: relative;
+}
+.sidebar .sidebar-nav ul li a.active:after{
+	content: '';
+	width: 30px;
+	height: 20px;
+	border-radius: .5rem;
+	background: #175783;
+	position: absolute;
+	top: 50%;
+	left: 103.5%;
+	transform: translateY(-50%);
+}
+
+.sidebar .sidebar-nav ul li a.active svg path{
+	stroke: #175783;
+	stroke-width: 1px;
+
+}
+.sidebar .sidebar-nav ul li a:hover svg path{
+	stroke: #175783 !important;
+	fill: #175783;
+}
+.sidebar .sidebar-nav ul li a.active,
+.sidebar .sidebar-nav ul li a:hover{
+	color: #175783;
+	background:rgba(23,87,131,0.2);
+}
+/*
+================================
+	SIDE BAR SECTION END
+================================
+*/
+
+.main{
+	width: calc(100% - 250px);
+	margin-left: auto;
+	padding: 2rem 3.5rem;
+	min-height: 100vh;
+}
+
+.main .dashtop{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.main .dashtop > h2{
+	font-weight: 700;
+	font-size: 2.4rem;
+	color: #191919;
+}
+
+.main .dashtop .dashtop-right{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.main .dashtop .notification{
+	border: 0.1rem solid #F0F0F1;
+	width: 40px;
+	height: 40px;
+	border-radius: 0.5rem;
+	margin-right: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+
+.main .dashtop .notification i{
+	font-size: 2rem;
+	color: #8C8C8C;
+	position: relative;
+}
+.main .dashtop .notification i:after{
+	content: '';
+	position: absolute;
+	right: .2rem;
+	top: .3rem;
+	width: 5px;
+	height: 5px;
+	border-radius: 10px;
+	background: #FD054F;
+}
+
+.main .dashtop .user-pr{
+	min-width: 180px;
+	max-width: 200px;
+	border: 0.1rem solid #F0F0F1;
+	height: 40px;
+	border-radius: .5rem;
+	padding: .3rem .8rem;
+	display: flex;
+	align-items: center;
+}
+.main .dashtop .user-pr img{
+	width: 25px;
+}
+.main .dashtop .user-pr p{
+	margin: 0;
+	margin-left: .8rem;
+	color: #8C8C8C;
+	font-size: 1.2rem;
+	font-weight: 700;
+}
+
+.main .dashtop-menu ul{
+	display: flex;
+	align-items: center;
+	border-bottom: 0.1rem solid #F0F0F1;
+	margin-top: 1.5rem;
+}
+
+.main .dashtop-menu ul li{
+	margin: 0;
+	margin-right: 4rem;
+}
+
+.main .dashtop-menu ul li a{
+	padding: 1.4rem 0;
+	font-size: 1.4rem;
+	font-weight: 600;
+	display: inline-block;
+	color: #8C8C8C;
+}
+.main .dashtop-menu ul li a:hover{
+	color: #175783; 
+}
+.main .dashtop-menu ul li a.active{
+	color: #175783; 
+	border-bottom: .2rem solid  #00B0B8;
+
+}
+
+/*
+================================
+	DASH CONTENT START
+================================
+*/
+.track-content{
+	text-align: center;
+	min-height: 430px;
+}
+
+.track-content h3{
+	font-weight: 700;
+	font-size: 2rem;
+	color: #121212;
+	margin-bottom: 1.5rem;
+}
+
+.track-content p{
+	font-weight: 500;
+	font-size: 1.4rem;
+	color: #A9A9A9;
+}
+
+.worth-card{
+	border-radius: .8rem;
+	background: linear-gradient(114.3deg, #1B4679 14.11%, #00B0B8 129.54%);
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.08);
+	text-align: center;
+	padding: 2rem 1.5rem;
+	min-height: 180px;
+	margin: 1.5rem 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.worth-card h6{
+	font-weight: 700;
+	font-size: 1.2rem;
+	line-height: 1.6rem;
+	color: #FEFEFE;
+	opacity: 0.72;
+}
+
+.worth-card h4{
+	font-weight: 900;
+	font-size: 2.8rem;
+	line-height: 3.6rem;
+	color: #FEFEFE;
+}
+.worth-card p{
+	font-weight: 500;
+	font-size: 1.2rem;
+	line-height: 1.6rem;
+	color: #F0F0F0;
+}
+/*
+================================
+	DASH CONTENT END
+================================
+*/
+
+
+.dash-box-container .dash-box-card{
+	width: 100%;
+	border-radius: .7rem;
+	border: 1px solid #F0F0F1;
+	padding: 1.5rem;
+	padding-bottom: 0.5rem;
+	margin: 1.5rem 0;
+}
+
+.dash-box-container .dash-box-card .dash-box-img{
+	width: 50px;
+	height: 50px;
+	border-radius: .6rem;
+	background: rgba(23,87,131,.1);
+	margin-bottom: .5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.dash-box-container .dash-box-card .dash-box-img img{
+	width: 25px;
+}
+
+.dash-box-container .dash-box-card h6{
+	font-weight: 500;
+	font-size: 1.4rem;
+	line-height: 2rem;
+	color: #8C8C8C;
+}
+
+.dash-box-container .dash-box-card .dash-box-price{
+	margin-top: 2.5rem;
+}
+.dash-box-container .dash-box-card .dash-box-price h4{
+	font-weight: 900;
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+	color: #121212;
+}
+.dash-box-container .dash-box-card .dash-box-price p{
+	font-weight: 600;
+	font-size: 1.2rem;
+	line-height: 1.6rem;
+	color: #A9A9A9;
+}
